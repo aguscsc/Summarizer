@@ -8,7 +8,7 @@ A tool that summarizes audio into text, with a focus on academic use, anotate ke
 
 # Requirimetns 
 - whisper (for managing audio)
-- Mistral (for managin text)
+- Mistral (for managing text)
 - Torch
 
 # Example
