@@ -12,5 +12,5 @@ A tool that summarizes audio into text, with a focus on academic use, anotate ke
 - Torch
 
 # Example
-For now it only manages to recieve audio files and then does a brief summary
+For now it only manages to recieve audio files and then does a brief summary, this example was made by feeding a video explaining ohm's law (https://youtu.be/_rSHqvjDksg?si=K-6AEUJeF_q6pKgO)
 ![example](pics/first.png)
