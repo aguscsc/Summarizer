@@ -35,3 +35,11 @@ git clone https://github.com/aguscsc/Summarizer.git
 cd code
 python summarizer.py
 ```
+# Usage
+Run the model and you'll be prompted to choose a whisper model, you can visit openai's whisper repo for more information about the models (https://github.com/openai/whisper.git).
+```
+Choose a Whisper model (e.g. tiny, base, small, medium, large):
+"YOUR CHOICE HERE"
+Insert audio file path:
+"YOUR AUDIO PATH HERE"
+```
