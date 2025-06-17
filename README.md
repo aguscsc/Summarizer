@@ -1,5 +1,5 @@
 # Summarizer
-A tool that summarizes audio into text, with a focus on academic use, anotate key points of a class, summarize really long lectures, or record yourself reading the material to then have it summarized.
+A tool that summarizes audio into text, with focus on academic use, annotate key points of a class, summarize really long lectures, or record yourself reading the material to then have it summarized.
 
 ## Updates I'd like to make
 - Have it to ask questions to you about the material
