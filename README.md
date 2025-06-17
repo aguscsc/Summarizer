@@ -18,10 +18,13 @@ For now it only manages to recieve audio files and then craft a brief summary, t
 # Installation
 
 ## Ollama
--linux
+- linux
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+- Windows & MacOS
+visit Ollama's website (https://ollama.com/download/windows)
+
 ## Whisper
 ```
 sudo pacman -S python-openai-whisper
