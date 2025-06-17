@@ -4,6 +4,7 @@ A tool that summarizes audio into text, with a focus on academic use, anotate ke
 ## Updates I'd like to make
 - Have it to ask questions to you about the material
 - direct mic transcription
+- A nice GUI
 - phone compatibility
 
 # Requirements 
