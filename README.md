@@ -42,7 +42,7 @@ cd code
 python summarizer.py
 ```
 # Usage
-Run the model and you'll be prompted to choose a whisper model, you can visit openai's whisper repo for more information about the models (https://github.com/openai/whisper.git).
+Run summarizer.py and you'll be prompted to choose a whisper model, you can visit openai's whisper repo for more information about the models (https://github.com/openai/whisper.git).
 ```
 Choose a Whisper model (e.g. tiny, base, small, medium, large):
 "YOUR CHOICE HERE"
