@@ -13,9 +13,11 @@ A tool that summarizes audio into text, with a focus on academic use, anotate ke
 
 # Examples
 - English
+  
 This example was made by feeding a video explaining ohm's law (https://youtu.be/_rSHqvjDksg?si=K-6AEUJeF_q6pKgO)
 ![example](pics/first.png)
 - Español
+  
 Este ejemplo fue hecho utilizando un video corto explicando la ley de ohm (https://youtu.be/izDKIyCPRWE)
 ![example](pics/es.png)
 # Installation
