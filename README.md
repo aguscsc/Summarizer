@@ -14,3 +14,21 @@ A tool that summarizes audio into text, with a focus on academic use, anotate ke
 # Example
 For now it only manages to recieve audio files and then craft a brief summary, this example was made by feeding a video explaining ohm's law (https://youtu.be/_rSHqvjDksg?si=K-6AEUJeF_q6pKgO)
 ![example](pics/first.png)
+
+# Installation
+
+## Ollama
+-linux
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+## Whisper
+```
+sudo pacman -S python-openai-whisper
+```
+## Running summarizer
+```
+git clone https://github.com/aguscsc/Summarizer.git
+cd code
+python summarizer.py
+```
