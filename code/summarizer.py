@@ -1,10 +1,14 @@
 import whisper
+import torch
 import os
 import subprocess
 import tempfile
 from chunker import transcribe_full_audio
 import time
-#code
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Using device: {device}")
+
 def summarize_with_ollama(path,language, model="llama3"):
     # 1️⃣ Check file exists
     if not os.path.isfile(path):
@@ -46,7 +50,8 @@ def main():
     # —— Whisper transcription —— #
     print("Choose a Whisper model (e.g. tiny, base, small, medium, large):")
     model_choice = input().strip()
-    model = whisper.load_model(model_choice)
+    model = whisper.load_model(model_choice).to(device)
+
 
     VALID_EXTS = ('.wav', '.mp3', '.m4a', '.flac', '.aac', '.ogg', 'mp4')
     while True:
